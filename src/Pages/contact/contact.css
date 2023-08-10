@@ -1,0 +1,133 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 960px;
+    height: 640px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 0px;
+}
+.contact-page {
+    max-width:688px;
+    gap: 28px
+}
+.contact-page_title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%
+}
+
+.contact-page_title-container h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+    letter-spacing: .02em;
+    margin-top: 200px;
+}
+
+.contact-page_title-container h2 {
+    letter-spacing: .02em;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #dbdbdb;
+}
+
+.contact-page_title-container h2,
+.contact-page_title-container h1,
+.contact-page__email-link{
+    margin-left: 150px;
+}
+.contact-page__icon-container {
+    position: relative;
+    width: 64px;
+    height: 56px;
+}
+
+.contact-page__link-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+.contact-page__email-link {
+    display: flex;
+    border-bottom: 1px solid var(--over-blue-400);
+    letter-spacing: .02em;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #4576f7;
+    margin-bottom: 90px;
+}
+.copy-button {
+    border-radius: 4px;
+}
+
+.app__footer-section {
+    padding: 80px 0;
+}
+.app__section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.app__section>.page__section-content {
+    max-width: unset;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+}
+.page__section-content {
+    box-sizing: content-box;
+    width: 200%;
+    max-width: 960px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+}
+.footer__title {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footer__copy-right {
+    letter-spacing: .02em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    color: grey;
+}
+a:active, a:hover, a:visited {
+    outline: 0;
+    color: inherit;
+}
+.footer__contact-us {
+    letter-spacing: .02em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8f8f8f;
+}
+.button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    overflow: visible;
+}
+
+
+
